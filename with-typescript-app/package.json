@@ -1,4 +1,6 @@
 {
+  "name": "test-next-ts-v-1",
+  "homepage": "https://MaltsevaYulia.github.io/test-next-ts-v-1",
   "private": true,
   "scripts": {
     "dev": "next",
