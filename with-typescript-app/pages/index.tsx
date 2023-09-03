@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { Box, Button, Paper } from "@mui/material";
+import {  Button, Paper } from "@mui/material";
 import { useRouter } from "next/router";
 
 const IndexPage = () => {
@@ -12,15 +12,7 @@ const IndexPage = () => {
 
   return (
     <Layout title="Home">
-      {/* <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "10px",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      > */}
+     
       <Paper style={{
         display: "grid",
         gridRowGap: "20px",
@@ -40,7 +32,7 @@ const IndexPage = () => {
             Log In
           </Button>
         </Paper>
-      {/* </Box> */}
+     
     </Layout>
   );
 };

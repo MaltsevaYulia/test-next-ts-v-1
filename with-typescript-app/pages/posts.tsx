@@ -7,8 +7,6 @@ import PostItem from "../components/PostItem";
 import supabase from "../supabaseConfig/supabaseClient";
 
 const PostsPage = ({ posts }) => {
-  // const [error, setError] = useState(null);
-  // const [posts, setPosts] = useState(null);
   const [user, setUser] = useState(null);
 
 
@@ -21,7 +19,7 @@ const PostsPage = ({ posts }) => {
       data: { user },
     } = await supabase.auth.getUser();
     if (user) {
-      console.log("🚀 ~ checkUser ~ user:", user);
+   
       setUser(user);
     }
   }
